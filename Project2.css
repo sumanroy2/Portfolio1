@@ -1,0 +1,155 @@
+*{
+	margin:0;
+	padding:0;	
+	box-sizing:border-box;
+}
+.first{
+	background-color:#3c2520;
+	height: 7%;
+	width:100%;
+	text-align:center;
+	border-bottom:3px solid black;
+}
+.first ul li:hover{
+	background-color:#db4a39;
+	color:red;
+	
+	
+}
+.second{
+	margin-top:-15px;
+}
+
+.button_style{
+	background-color:#3c2520;
+	color: white;
+	margin-right:8px;
+	padding-right:19px;
+	text-align:center;
+}
+
+
+
+/* third header*/
+
+.third{
+	background-color:#3c2520;
+	color:white;
+	width:100%;
+	
+}
+.third a{
+	color:white;
+	margin:1px solid white;
+}
+.third a:hover{
+	background-color:#957964;
+}
+.active1{
+	background-color:#957964;
+	
+}
+.end{
+	display:none;
+	padding-right:12px;
+	
+}
+.third ul li:hover .end{
+	display:block;
+	position:absolute;
+	margin-top:-2px; /* Margin-top help to connection the dropmenu*/
+	background-color:#3c2520;
+	padding-right:22px;
+
+}
+
+.third ul li:hover .end ul{
+	display:inline;
+}
+.third ul li:hover .end ul li{
+	text-align:center;
+	border-radius:0;
+	background:transparent;
+	
+}
+.third ul li:hover .end a:hover{
+	
+	border-bottom:2px dotted green;
+}
+.third ul li:hover .end a:hover::last-child{
+	 border-bottom:none;
+}
+
+/*Start Grid
+.grid-container{
+	display:grid;
+	grid-template-columns:auto auto auto auto;
+	grid-gap:12px 12px;
+		
+}*/
+.row1{
+	width:558px;
+	height:450px;
+	opacity:0.6;
+	transition:all 1s;
+}
+.row2{
+	width:372px;
+	height:152px;
+	opacity:0.6;
+	transition:all 1s;
+}
+.row1:hover,.row2:hover{
+	color:light;
+	background-color:hover;
+	opacity:1;
+	transition:all 1s;
+}
+
+/*@@@@@@@@@@@*/
+.img_1{
+	border:2px solid red;
+	height:316px;
+	width:232px;
+}
+.img_2{
+	border:2px solid red;
+	height:316px;
+	width:232px;
+}
+/*@@@@@@  Footer @@@@@*/
+.footer_{
+	background-color:#656161;
+	margin-top:15px;
+	padding:23px;
+	color:white;
+	
+	
+}
+.footer_ul a{
+	color:white;
+}
+/*.footer_2{
+	background-color:#0e120b;
+}
+.footer_1{
+	background-color:#0e120b;
+}*/
+.form_i{
+	margin:3px 0px 3px 0px;
+	padding:7px;
+}
+.button_t{
+	background-color:#957964;
+	color:white;
+	margin-top:3px;
+	
+}
+#more{
+	display:none;
+}
+.customer{
+	border-radius:50%;
+	width:150px;
+	height:150px
+}

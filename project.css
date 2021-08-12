@@ -1,0 +1,45 @@
+*{
+	margin:0;
+	padding:0;
+}
+.wow{
+	background-color:#0085cf;
+}
+
+.tool{
+	position:absolute;
+	top:30%;
+	width:60%;
+	text-align:center;
+	color:dark;
+	background-color:#ece9eb;
+	background-position:center;
+	margin:63px;
+	
+}
+.banner img{
+	border:1px solid gray transparent;
+}
+.heading2{
+	color:#0085cf;
+	text-align:center;
+	margin:9px;
+	margin-top:33px;
+}
+.paragraph2{
+	color:#0085cf;
+}
+.foot{
+	background-color:#0085cf;
+	margin-top:22px;
+	color:white;
+	padding:4px;
+	border: 2px solid grey ;
+	
+}
+.foot i{
+	color:white;
+}
+.foot a{
+	color:white;
+}
